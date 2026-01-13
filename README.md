@@ -25,11 +25,11 @@ Selamat datang di repositori portofolio saya! Proyek ini bukan sekadar portofoli
 
 🚀 Cara Menjalankan Secara Lokal
 
-    Clone repositori ini:
+    Clone repositori ini: 
     Bash
 
-git clone 
-cd 
+git clone https://github.com/XhuuLL/Portfolio-React.git
+cd Portfolio-React
 
 Instal dependensi:
 Bash
