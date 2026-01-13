@@ -281,20 +281,20 @@ export const listSertifikat = [
     image: sertifikat1,
     title: "Sertifikat Kemalasan Digital",
     issuer: "Imphnen",
-    url: "https://www.dicoding.com/certificates/MEPZQX0VY2RL",
+    url: "",
   },
   {
     id: 2,
     image: sertifikat2,
     title: "Linux Dasar untuk Pemula",
     issuer: "Id Network Academy",
-    url: "https://www.dicoding.com/certificates/MAYE4Q0VY2RL",
+    url: "",
   },
   {
     id: 3,
     image: sertifikat3,
     title: "Python Dasar untuk Pemula",
     issuer: "Study Club",
-    url: "https://www.dicoding.com/certificates/0Z1E4Q0VY2RL",
+    url: "",
   },
 ];
