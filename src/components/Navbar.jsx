@@ -39,7 +39,7 @@ const Navbar = ({ hidden = false }) => {
         <ul className="flex items-center gap-1">
           <NavItem href="#about" icon={<User size={16} />} label="About" />
           <NavItem href="#experience" icon={<BriefcaseBusiness size={16} />} label="Experience" />
-          <NavItem href="#cerificates" icon={<Book size={16} />} label="Certificate" />
+          <NavItem href="#certificates" icon={<Book size={16} />} label="Certificate" />
           <NavItem href="#contact" icon={<Contact size={16} />} label="Contact" />
           <NavItem href="#skills" icon={<Book size={16} />} label="Skills" />
           <NavItem href="#project" icon={<Briefcase size={16} />} label="Project" />
