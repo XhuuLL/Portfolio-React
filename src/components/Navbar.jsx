@@ -40,9 +40,9 @@ const Navbar = ({ hidden = false }) => {
           <NavItem href="#about" icon={<User size={16} />} label="About" />
           <NavItem href="#experience" icon={<BriefcaseBusiness size={16} />} label="Experience" />
           <NavItem href="#certificates" icon={<Book size={16} />} label="Certificate" />
-          <NavItem href="#contact" icon={<Contact size={16} />} label="Contact" />
           <NavItem href="#skills" icon={<Book size={16} />} label="Skills" />
           <NavItem href="#project" icon={<Briefcase size={16} />} label="Project" />
+          <NavItem href="#contact" icon={<Contact size={16} />} label="Contact" />
         </ul>
         {/* Jam Digital (Sesuai Gambar) */}
         <div className="hidden md:block ml-4 pr-2 border-l border-zinc-700 pl-4">
