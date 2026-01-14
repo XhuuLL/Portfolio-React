@@ -3,16 +3,17 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth";
 
-// Mengambil data dari Environment Variables
+
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
+    apiKey: "AIzaSyCyRiselfmzKvlnlAhw85-iJFNnK-fp7Ko",
+    authDomain: "portfolio-b35ca.firebaseapp.com",
+    projectId: "portfolio-b35ca",
+    storageBucket: "portfolio-b35ca.firebasestorage.app",
+    messagingSenderId: "2515692888",
+    appId: "1:2515692888:web:89f81c6508fe31dfa9492d",
+    measurementId: "G-QB8ZYB46BE"
 };
+
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
