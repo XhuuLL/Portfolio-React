@@ -9,8 +9,8 @@ import * as THREE from 'three';
 import './Lanyard.css';
 
 // 1. Path file desain kartu kamu
-const cardTexturePath = new URL("./assets/card.png", import.meta.url).href;
-const lanyardPath = new URL("./assets/lanyard.png", import.meta.url).href;
+const cardTexturePath = new URL("../assets/card.png", import.meta.url).href;
+const lanyardPath     = new URL("../assets/lanyard.png", import.meta.url).href;
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 
