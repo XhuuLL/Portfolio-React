@@ -6,26 +6,26 @@ const Image = {
 
 export default Image;
 
-import Tools1 from "./assets/tools/vscode.png";
-import Tools2 from "./assets/tools/reactjs.png";
-import Tools3 from "./assets/tools/Laravel.png";
-import Tools4 from "./assets/tools/tailwind.png";
-import Tools5 from "./assets/tools/ci.png";
-import Tools6 from "./assets/tools/js.png";
-import Tools7 from "./assets/tools/nodejs.png";
-import Tools8 from "./assets/tools/github.png";
-import Tools9 from "./assets/tools/AM.png";
-import Tools10 from "./assets/tools/canva.png";
-import Tools11 from "./assets/tools/figma.png";
-import Tools12 from "./assets/tools/CapCut.png";
-import Tools13 from "./assets/tools/sqlsr.png";
-import Tools14 from "./assets/tools/html.png";
-import Tools15 from "./assets/tools/css.png";
-import Tools16 from "./assets/tools/potsgre.png";
-import Tools17 from "./assets/tools/php.png";
-import Tools18 from "./assets/tools/vite.png";
-import Tools19 from "./assets/tools/mysql.png";
-import Tools20 from "./assets/tools/python.png";
+import Tools1 from "/assets/tools/vscode.png";
+import Tools2 from "/assets/tools/reactjs.png";
+import Tools3 from "/assets/tools/Laravel.png";
+import Tools4 from "/assets/tools/tailwind.png";
+import Tools5 from "/assets/tools/ci.png";
+import Tools6 from "/assets/tools/js.png";
+import Tools7 from "/assets/tools/nodejs.png";
+import Tools8 from "/assets/tools/github.png";
+import Tools9 from "/assets/tools/AM.png";
+import Tools10 from "/assets/tools/canva.png";
+import Tools11 from "/assets/tools/figma.png";
+import Tools12 from "/assets/tools/CapCut.png";
+import Tools13 from "/assets/tools/sqlsr.png";
+import Tools14 from "/assets/tools/html.png";
+import Tools15 from "/assets/tools/css.png";
+import Tools16 from "/assets/tools/potsgre.png";
+import Tools17 from "/assets/tools/php.png";
+import Tools18 from "/assets/tools/vite.png";
+import Tools19 from "/assets/tools/mysql.png";
+import Tools20 from "/assets/tools/python.png";
 
 export const listExperience = [
   {
@@ -194,12 +194,12 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "./assets/proyek/proyek1.png";
-import Proyek2 from "./assets/proyek/proyek2.png";
-import Proyek3 from "./assets/proyek/proyek3.png";
-import Proyek4 from "./assets/proyek/proyek4.png";
-import Proyek5 from "./assets/proyek/proyek5.png";
-import Proyek6 from "./assets/proyek/proyek6.png";
+import Proyek1 from "/assets/proyek/proyek1.png";
+import Proyek2 from "/assets/proyek/proyek2.png";
+import Proyek3 from "/assets/proyek/proyek3.png";
+import Proyek4 from "/assets/proyek/proyek4.png";
+import Proyek5 from "/assets/proyek/proyek5.png";
+import Proyek6 from "/assets/proyek/proyek6.png";
 import { terminate } from "firebase/firestore";
 
 export const listProyek = [
@@ -271,9 +271,9 @@ export const listProyek = [
   },
 ];
 
-import sertifikat1 from "./assets/sertifikat/sertifikat1.png";
-import sertifikat2 from "./assets/sertifikat/sertifikat2.png";
-import sertifikat3 from "./assets/sertifikat/sertifikat3.png";
+import sertifikat1 from "/assets/sertifikat/sertifikat1.png";
+import sertifikat2 from "/assets/sertifikat/sertifikat2.png";
+import sertifikat3 from "/assets/sertifikat/sertifikat3.png";
 
 export const listSertifikat = [
   {
