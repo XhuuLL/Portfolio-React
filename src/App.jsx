@@ -29,11 +29,12 @@ function App() {
   };
 
   useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: false, 
-      mirror: true,
-    });
+  AOS.init({
+    duration: 1000,
+    once: false, 
+    mirror: true,
+  });
+}, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
