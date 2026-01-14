@@ -61,19 +61,25 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
             </div>
 
             {/* --- DESKRIPSI LENGKAP --- */}
+          {/* Menambahkan pengecekan agar tidak muncul ruang kosong jika deskripsi tidak ada */}
+          {project.fullDescription && (
             <p className="text-zinc-300 text-base leading-relaxed">
-                {project.fullDescription}
+              {project.fullDescription}
             </p>
+          )}
 
+          {/* --- TOMBOL (Hanya muncul jika ADA URL dan BUKAN Sertifikat) --- */}
+          {project.url && !project.isCertificate && (
             <a
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center justify-center gap-2 font-semibold bg-violet-600 p-3 px-5 rounded-full w-full cursor-pointer border border-transparent hover:bg-violet-700 transition-colors"
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center justify-center gap-2 font-semibold bg-violet-600 p-3 px-5 rounded-full w-full cursor-pointer border border-transparent hover:bg-violet-700 transition-colors text-white"
             >
-                <FiGithub />
-                <span>Source Code</span>
+              <FiGithub />
+              <span>Source Code</span>
             </a>
+          )}
         </div>
       </div>
        {/* CSS untuk animasi */}

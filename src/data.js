@@ -282,6 +282,7 @@ export const listSertifikat = [
     title: "Sertifikat Kemalasan Digital",
     issuer: "Imphnen",
     url: "",
+    isCertificate: true,
   },
   {
     id: 2,
@@ -289,6 +290,7 @@ export const listSertifikat = [
     title: "Linux Dasar untuk Pemula",
     issuer: "Id Network Academy",
     url: "",
+    isCertificate: true,
   },
   {
     id: 3,
@@ -296,5 +298,6 @@ export const listSertifikat = [
     title: "Python Dasar untuk Pemula",
     issuer: "Study Club",
     url: "",
+    isCertificate: true,
   },
 ];
