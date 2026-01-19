@@ -29,7 +29,7 @@ const Footer = () => {
               <i className="ri-linkedin-line ri-xl"></i>
           </a>
 
-          <a href="mailto:fatkhularif15@gmail.com@gmail.com" className="hover:text-white transition-colors">
+          <a href="mailto:fatkhularif15@gmail.com" className="hover:text-white transition-colors">
             <i className="ri-mail-line ri-xl"></i>
           </a>
         </div>
