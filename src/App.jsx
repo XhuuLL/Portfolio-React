@@ -71,7 +71,7 @@ function App() {
               <q>live to breathe</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
-              <ShinyText text="Akhmad Fatkhul Arifin" disabled={false} speed={3} className='custom-class' />
+              <ShinyText text="AKHMAD FATKHUL ARIFIN" disabled={false} speed={3} className='custom-class' />
             </h1>
             <BlurText
               text="Seorang Mahasiswa yang bersemangat dan berdedikasi untuk menciptakan pengalaman digital modern dan berkinerja tinggi melalui solusi inovatif hehe."
