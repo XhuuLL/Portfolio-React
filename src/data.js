@@ -273,7 +273,7 @@ export const listProyek = [
 
 import sertifikat1 from "/assets/sertifikat/sertifikat1.png";
 import sertifikat2 from "/assets/sertifikat/sertifikat2.png";
-import sertifikat3 from "/assets/sertifikat/sertifikat3.png";
+import sertifikat3 from "/assets/sertifikat/dicoding.png";
 
 export const listSertifikat = [
   {
@@ -295,8 +295,8 @@ export const listSertifikat = [
   {
     id: 3,
     image: sertifikat3,
-    title: "Python Dasar untuk Pemula",
-    issuer: "Study Club",
+    title: "Belajar Dasar AI",
+    issuer: "Dicoding",
     url: "",
     isCertificate: true,
   },

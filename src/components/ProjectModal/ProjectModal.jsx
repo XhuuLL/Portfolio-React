@@ -68,7 +68,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
             </p>
           )}
 
-          {/* --- TOMBOL (Hanya muncul jika ADA URL dan BUKAN Sertifikat) --- */}
+          {/* ---  Sertifikat --- */}
           {project.url && !project.isCertificate && (
             <a
               href={project.url}
