@@ -104,7 +104,7 @@ function App() {
               handle="fatkhul.png"
               status="Offline"
               contactText="Contact Me"
-              avatarUrl="./assets/xhuull.png"
+              avatarUrl="./assets/fatkhul.png"
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
