@@ -17,7 +17,7 @@ const Footer = () => {
           <a href="https://github.com/XhuuLL" className="hover:text-white transition-colors">
             <i className="ri-github-line ri-xl"></i>
           </a>
-          <a href="https://www.instagram.com/fatkhul.png" className="hover:text-white transition-colors">
+          <a href="https://www.instagram.com/maddzzz.svg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="hover:text-white transition-colors">
             <i className="ri-instagram-line ri-xl"></i>
           </a>
           <a
